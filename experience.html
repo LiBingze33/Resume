@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en" style="width: 1280px; height: 1076px; overflow: hidden; position: relative;">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Experience - Bingze Li</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed": "#e5e2e1",
+                        "on-tertiary-fixed": "#1c1b1a",
+                        "tertiary": "#000000",
+                        "border-subtle": "#E5E5E5",
+                        "inverse-primary": "#c8c6c5",
+                        "surface": "#fdf8f8",
+                        "surface-variant": "#e5e2e1",
+                        "background": "#fdf8f8",
+                        "on-primary-fixed": "#1c1b1b",
+                        "on-secondary-fixed-variant": "#3c475a",
+                        "surface-container-highest": "#e5e2e1",
+                        "secondary": "#545f73",
+                        "inverse-surface": "#313030",
+                        "on-primary-container": "#858383",
+                        "on-tertiary": "#ffffff",
+                        "text-secondary": "#64748B",
+                        "on-tertiary-fixed-variant": "#484645",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-dim": "#ddd9d8",
+                        "on-secondary": "#ffffff",
+                        "secondary-container": "#d5e0f8",
+                        "outline-variant": "#c4c7c7",
+                        "surface-card": "#FFFFFF",
+                        "surface-tint": "#5f5e5e",
+                        "surface-bg": "#F9F9F9",
+                        "on-primary-fixed-variant": "#474746",
+                        "on-surface": "#1c1b1b",
+                        "surface-container-low": "#f7f3f2",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-container": "#868382",
+                        "on-secondary-container": "#586377",
+                        "on-error-container": "#93000a",
+                        "surface-container": "#f1edec",
+                        "surface-container-high": "#ebe7e6",
+                        "tertiary-fixed-dim": "#cac6c4",
+                        "outline": "#747878",
+                        "on-surface-variant": "#444748",
+                        "primary": "#000000",
+                        "secondary-fixed-dim": "#bcc7de",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "on-background": "#1c1b1b",
+                        "tertiary-container": "#1c1b1a",
+                        "error-container": "#ffdad6",
+                        "inverse-on-surface": "#f4f0ef",
+                        "secondary-fixed": "#d8e3fb",
+                        "surface-bright": "#fdf8f8",
+                        "accent-blue": "#2563EB",
+                        "primary-container": "#1c1b1b",
+                        "on-secondary-fixed": "#111c2d",
+                        "on-error": "#ffffff",
+                        "tertiary-fixed": "#e6e2df"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "container-max": "1200px",
+                        "card-padding": "32px",
+                        "gutter": "24px",
+                        "section-gap": "80px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "label-md": ["Inter"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "display": ["Hanken Grotesk"],
+                        "label-sm": ["Inter"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "body-lg": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "display": ["48px", { "lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-sm": ["12px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "1.4", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #fdf8f8;
+        }
+
+        .card-shadow {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+        }
+    </style>
+</head>
+
+<body class="text-on-background antialiased pt-16">
+    <!-- TopNavBar (Shared Component) -->
+    <nav
+        class="fixed top-0 w-full z-50 flex justify-between items-center px-8 h-16 max-w-[1200px] mx-auto left-0 right-0 bg-background border-b border-border-subtle\">
+        <a class="font-headline-md text-headline-md font-bold text-primary"
+            href="home.html">Bingze Li</a>
+        <div class="hidden md:flex gap-8">
+            <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200"
+                href="home.html">Home</a>
+            <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200"
+                href="projects.html">Projects</a>
+            <a class="font-label-md text-label-md text-primary border-b-2 border-primary pb-1"
+                href="experience.html">Experience</a>
+            <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200"
+                href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <!-- Main Container -->
+    <main class="max-w-[1200px] mx-auto px-8 py-section-gap space-y-section-gap">
+        <!-- Page Header -->
+        <header class="max-w-2xl">
+            <h1 class="font-display text-display text-primary mb-4">Professional Experience</h1>
+            <p class="font-body-lg text-body-lg text-text-secondary">A record of roles combining technical
+                implementation, academic instruction, and IT infrastructure support.</p>
+        </header>
+        <!-- Bento Grid Layout for Content -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+            <!-- Experience Column (Left - 8 columns) -->
+            <div class="lg:col-span-12 max-w-4xl flex flex-col gap-6">
+                <!-- Experience Item 1 -->
+                <article
+                    class="bg-surface-card border border-border-subtle rounded-xl p-card-padding card-shadow flex flex-col md:flex-row gap-6 relative overflow-hidden group">
+                    <div class="md:w-1/3 border-b md:border-b-0 md:border-r border-border-subtle pb-4 md:pb-0 md:pr-6">
+                        <span class="font-label-sm text-label-sm text-text-secondary uppercase block mb-1">Dec 2025 -
+                            Jul 2026</span>
+                        <h3 class="font-headline-md text-headline-md text-primary mb-1">Coding Tutor</h3>
+                        <p class="font-label-md text-label-md text-on-surface-variant">Leading Coding</p>
+                    </div>
+                    <div class="md:w-2/3">
+                        <p class="font-body-md text-body-md text-on-surface mb-4">Instructed students in fundamental and
+                            intermediate programming concepts. Developed tailored lesson plans, evaluated student
+                            progress, and fostered an engaging learning environment focused on practical coding skills
+                            and computational thinking.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span
+                                class="bg-[#F1F5F9] text-text-secondary font-label-sm text-label-sm px-3 py-1 rounded">Mentorship</span>
+                            <span
+                                class="bg-[#F1F5F9] text-text-secondary font-label-sm text-label-sm px-3 py-1 rounded">Curriculum
+                                Design</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Experience Item 2 -->
+                <article
+                    class="bg-surface-card border border-border-subtle rounded-xl p-card-padding card-shadow flex flex-col md:flex-row gap-6 relative overflow-hidden group">
+                    <div class="md:w-1/3 border-b md:border-b-0 md:border-r border-border-subtle pb-4 md:pb-0 md:pr-6">
+                        <span class="font-label-sm text-label-sm text-text-secondary uppercase block mb-1">Mar 2022 -
+                            Nov 2022</span>
+                        <h3 class="font-headline-md text-headline-md text-primary mb-1">IT Specialist Intern</h3>
+                        <p class="font-label-md text-label-md text-on-surface-variant">Syslogic</p>
+                    </div>
+                    <div class="md:w-2/3">
+                        <p class="font-body-md text-body-md text-on-surface mb-4">Assisted in maintaining IT
+                            infrastructure, providing technical support to staff, and deploying hardware/software
+                            solutions. Participated in network troubleshooting and system administration tasks to ensure
+                            operational efficiency.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span
+                                class="bg-[#F1F5F9] text-text-secondary font-label-sm text-label-sm px-3 py-1 rounded">System
+                                Admin</span>
+                            <span
+                                class="bg-[#F1F5F9] text-text-secondary font-label-sm text-label-sm px-3 py-1 rounded">Technical
+                                Support</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+    <!-- Footer (Shared Component) -->
+    <footer
+        class="w-full py-12 px-8 flex flex-col md:flex-row justify-between items-center max-w-[1200px] mx-auto bg-surface-container-low border-t border-border-subtle mt-section-gap">
+        <div class="font-headline-sm text-headline-sm font-bold text-primary mb-4 md:mb-0">
+            Bingze Li
+        </div>
+        <div class="font-body-md text-body-md text-on-surface-variant text-center md:text-left mb-4 md:mb-0">
+            © 2026 Bingze Li. Computer Science Graduate.
+        </div>
+        <div class="flex space-x-6">
+            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors duration-200"
+                href="https://linkedin.com/in/bingze-li-6a693427a" target="_blank"
+                rel="noopener noreferrer">LinkedIn</a>
+            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors duration-200"
+                href="https://github.com/LiBingze33" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors duration-200"
+                href="mailto:libingze0507@gmail.com">Email</a>
+        </div>
+    </footer>
+    <div id="snapdom-sandbox" data-snapdom-sandbox="true" aria-hidden="true"
+        style="position: absolute; left: -9999px; top: -9999px; width: 0px; height: 0px; overflow: hidden;"></div>
+</body>
+
+</html>
